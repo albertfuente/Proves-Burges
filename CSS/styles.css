@@ -1,0 +1,146 @@
+/*HTML ELEMENTS*/
+body {
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  z-index: -1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Libre Baskerville', serif;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+#title {
+  background-color: #9E824D;
+  color: #fff;
+  text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  padding-bottom: 300px;
+}
+
+/* Navigation bar */
+.navbar {
+  padding-left: 15%;
+  padding-right: 15%;
+}
+
+.navbar-brand {
+  font-size: 2.5;
+  font-weight: bold;
+  color: #9E824D !important;
+}
+
+.nav-item {
+  padding: 0 16px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: 'Libre Baskerville', serif;
+}
+
+
+
+.title-image {
+  width: 120%;
+  position: absolute;
+  left: -3%;
+  top: 17%;
+}
+
+.intro {
+  padding-top: 20%;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/*PRICING SECTION*/
+#pricing {
+  padding: 100px;
+  background-color: #343940;
+  color: white;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.price-tag {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+@media(max-width:1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 120%;
+    position: relative;
+    left: -70px;
+  }
+}
+
+/* FOOTER SECTION */
+#footer .container-fluid {
+  padding: 5% 15%;
+  background-color: #9E824D;
+  color: #343940;
+  display: grid;
+}
+
+.social-icon {
+  padding: 1%;
+}
+
+.horari {
+  padding: 1%;
+}
+
+.address {
+  padding: 1%;
+}
+
+.socialmedia {
+  padding: 1%;
+}
+
+.big-heading {
+  font-family: 'Libre Baskerville', serif;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.intro{
+  position: relative;
+  -webkit-animation: mymove 3s ; /* Safari 4.0 - 8.0 */
+  animation: mymove 3s ;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes mymove {
+  from {left: -600px;}
+  to {left: 0px;}
+}
+
+@keyframes mymove {
+  from {left: -600px;}
+  to {left: 0px;}
+}
